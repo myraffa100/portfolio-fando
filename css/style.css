@@ -1,42 +1,3 @@
-/*
-   
-    Template Name : WebRes - Personal Resume Template
-    Author : UiPasta Team
-    Website : http://www.uipasta.com/
-    Support : http://www.uipasta.com/support/
-	
-	
-*/
-
-
-
-/*
-   
-   Table Of Content
-   
-   1. Global Style
-   2. Preloader
-   3. Home Section and Navigation Menu
-   4. Qualification and Experience
-   5. About
-      5.1 Skills
-      5.2 Subscribe
-   6. Portfolio
-   7. Testimonial
-   8. Statistics
-   9. Services
-  10. Call to Action
-  11. Contact Us
-  12. Social Icons
-  13. Footer
-  14. Scroll To Top
-  15. Responsive
-  16. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
-  17. UiPasta Credit
- 
-
-*/
-
 
 
 /* Global Style */
@@ -611,7 +572,59 @@ tr > td:nth-child(2) {
 	margin-right: 5px;
 }
 
-
+/* Sertifikat Section */
+#sertifikat {
+    background-color: #f4f6f8;
+    padding-top: 50px;
+  }
+  
+  #sertifikat h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+  }
+  
+  #sertifikat .zoom {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #sertifikat .zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Image Grid */
+  #sertifikat .row > .col-md-4 {
+    padding: 0 15px;
+  }
+  
+  #sertifikat .img-fluid {
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    #sertifikat .col-md-4 {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* LinkedIn Button */
+  #sertifikat svg {
+    fill: #0077b5;
+    width: 24px;
+  }
+  
+  #sertifikat a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0077b5;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  #sertifikat a:hover {
+    color: #005582;
+  }
+  
 
 /* Skills */
 
